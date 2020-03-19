@@ -1,0 +1,99 @@
+body * {
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Oxanium', cursive;
+background-color: gainsboro;
+}
+
+h1 {
+font-size: 28px;
+}
+
+h2 {
+margin-top: 30px;
+}
+
+.header {
+text-align: center;
+}
+
+form {
+  border: 1px groove;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgray;
+  font-weight: bold;
+  min-width: 300px;
+  padding: .2em .5em;
+  margin: .25em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#beginSearchBtn {
+  border: 2px solid black;
+  background-color: gray;
+  font-weight: bold;
+  color: white;
+  width: 125px;
+  }
+
+input[type=text]{
+  outline-color: darkgray;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.error {
+  color: red;
+}
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: flex-start;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  box-shadow:0px 3px 5px 1px lightgray;
+  padding: 15px;
+  font-size: 1rem;
+  
+}
+.flex-container {
+  max-width: 42rem;
+  min-width: 325px;
+ 
+}
+.user {
+  color: darkgray;
+
+}
+li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: inherit;
+}
+ul{
+  margin-top: -10px;
+}
+.result-item {
+width: 100%;
+border: 1px solid lightgray;
+padding: .5rem;
+padding-left: 50px;
+padding-right: 50px;
+border-radius: 4px;
+}
